@@ -3,7 +3,7 @@
 #include "tokenizing.h"
 
 void tokenizing(void) {
-	printf("*** Start of Tokenizing phrases Demo ***\n");
+	printf("*** Start of Tokenizing Phrases Demo ***\n");
 	char phrases[BUFFER_SIZE];
 	char* nextPhrase = NULL;
 	int phrasesCounter;
@@ -20,5 +20,5 @@ void tokenizing(void) {
 			}
 		}
 	} while (strcmp(phrases, "q") != 0);
-	printf("*** End of Tokenizing phrases Demo ***\n\n");
+	printf("*** End of Tokenizing Phrases Demo ***\n\n");
 }
