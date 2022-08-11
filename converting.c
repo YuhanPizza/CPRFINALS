@@ -2,20 +2,21 @@
 #define BUFFER_SIZE 80
 #include "converting.h"
 
-
-void converting(void) {
+void converting(void)
+{
 	printf("*** Start of Converting Strings to int Demo ***\n");
-	char intString[BUFFER_SIZE];
-	int intNumber;
-	do {
+	char doubleString[BUFFER_SIZE];
+	int doubleNumber;
+	do
+	{
 		printf("Type an int numeric string (q - to quit):\n");
-		fgets(intString, BUFFER_SIZE, stdin);
-		intString[strlen(intString) - 1] = '\0';
-		if (strcmp(intString, "q") != 0) {
-			intNumber = atoi(intString);
-			printf("Converted number is %d\n", intNumber);
+		fgets(doubleString, BUFFER_SIZE, stdin);
+		doubleString[strlen(doubleString) - 1] = '\0';
+		if (strcmp(doubleString, "q") != 0)
+		{
+			doubleNumber = atoi(doubleString);
+			printf("Converted number is %d\n", doubleNumber);
 		}
-	} while (strcmp(intString, "q") != 0);
+	} while (strcmp(doubleString, "q") != 0);
 	printf("*** End of Converting Strings to int Demo ***\n\n");
-	return; 
 }
