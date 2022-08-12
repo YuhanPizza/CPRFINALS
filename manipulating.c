@@ -3,21 +3,26 @@
 #include "manipulating.h"
 
 void manipulating(void) {
-	printf("*** Start of Concatenating Strings Demo ***\n");
-	char string1[BUFFER_SIZE];
-	char string2[BUFFER_SIZE];
-
-	do {
-		printf("Type the 1st string (q - to quit):\n");
-		fgets(string1, BUFFER_SIZE, stdin);
-		string1[strlen(string1) - 1] = '\0';
-		if ((strcmp(string1, "q") != 0)) {
-			printf("Type the 2nd string:\n");
-			fgets(string2, BUFFER_SIZE, stdin);
-			string2[strlen(string2) - 1] = '\0';
-			strcat(string1, string2);
-			printf("Concatenated string is \'%s\'\n", string1);
+	printf("*** Start of Comparing Strings Demo ***\n");
+	char compare1[BUFFER_SIZE];
+	char compare2[BUFFER_SIZE];
+	int result;
+	while (TRUE) {
+		printf("Type the 1st string to compare (q - to quit):\n");
+		gets(compare1);
+		
+		if (strcmp(compare1, "q") == 0) break; 
+			printf("Type the 2nd string to compare:\n");
+			gets(compare2);
+			
+			result=strcmp(compare1, compare2);
+			if (result < 0)
+				printf("1st string is less than 2nd\n");
+			else if (result == 0)
+				printf("1st string is equal to 2nd\n");
+			else
+				printf("1st string is greater than 2nd\n");
 		}
-	} while (strcmp(string1, "q") != 0);
-	printf("*** End of Concatenating Strings Demop ***\n\n");
+
+	printf("*** End of Comparing Strings Demo ***\n\n");
 }
