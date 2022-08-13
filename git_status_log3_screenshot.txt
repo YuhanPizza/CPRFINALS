@@ -1,0 +1,19 @@
+ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   converting.c
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        converting
+        git_status_log1_screenshot.txt
+        git_status_log2_screenshot.txt
+        git_status_log3_screenshot.txt
+        git_status_log4_screenshot.txt
+        main
+        test_screenshot.txt
+

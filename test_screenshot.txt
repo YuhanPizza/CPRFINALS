@@ -1,0 +1,99 @@
+cd "/Users/faustojavierzarumaarias/Documents/Seneca_summer2022/CPR101/CPRFINALS/" && gcc main.c manipulating.c fundamentals.c tokenizing.c converting.c -o main && "/Users/faustojavierzarumaarias/Documents/Seneca_summer2022/CPR101/CPRFINALS/"main
+1 - Fundamentals
+2 - Manipulating
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run? 
+1
+**** Start of Index Strings Demo ****
+Type not empty string (q - to quit):
+notempty
+Type the character position within the string:
+3
+The character found at 3 position is 'e'
+Type not empty string (q - to quit):
+q
+*** End of Indexing Strings Demo ***
+
+*** Start of Measuring String Demo ***
+Type a string (q - to quit) :
+warning: this program uses gets(), which is unsafe.
+string
+The length is 6
+Type a string (q - to quit) :
+q
+*** End of Measuring Strings Demo ***
+
+1 - Fundamentals
+2 - Manipulating
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run? 
+2
+*** Start of Comparing Strings Demo ***
+Type the 1st string to compare (q - to quit):
+hello
+Type the 2nd string to compare:
+hello1
+1st string is less than 2nd
+Type the 1st string to compare (q - to quit):
+hello
+Type the 2nd string to compare:
+hello
+1st string is equal to 2nd
+Type the 1st string to compare (q - to quit):
+hello
+Type the 2nd string to compare:
+hello3
+1st string is less than 2nd
+Type the 1st string to compare (q - to quit):
+hello2
+Type the 2nd string to compare:
+hello
+1st string is greater than 2nd
+Type the 1st string to compare (q - to quit):
+q
+*** End of Comparing Strings Demo ***
+
+1 - Fundamentals
+2 - Manipulating
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run? 
+3
+*** Start of Converting Strings to int Demo ***
+Type an int numeric string (q - to quit):
+12345
+Converted number is 12345
+Type an int numeric string (q - to quit):
+q
+*** End of Converting Strings to int Demo ***
+
+1 - Fundamentals
+2 - Manipulating
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run? 
+4   
+*** Start of Tokenizing Phrases Demo ***
+Type a few phrases separated by space (q - to quit):
+few phrases by space 
+Phrase #1 is 'few'
+Phrase #2 is 'phrases'
+Phrase #3 is 'by'
+Phrase #4 is 'space'
+Type a few phrases separated by space (q - to quit):
+q
+*** End of Tokenizing Phrases Demo ***
+
+1 - Fundamentals
+2 - Manipulating
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run? 
+0
