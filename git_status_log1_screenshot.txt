@@ -1,0 +1,208 @@
+
+PS C:\cpr101\git project\CPRFINALS> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   fundamentals.c
+        modified:   fundamentals.h
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        git_status_log1_screenshot.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+
+
+PS C:\cpr101\git project\CPRFINALS> git log
+commit 4e7b56083e2d796d166f709892874b5d39bc2084 (HEAD -> main)
+Author: Sahib-Aujla <sahibpreet568@gmail.com>
+Date:   Fri Aug 12 21:48:46 2022 -0400
+
+    V2
+
+commit 25a5d8f6ae99e7ed9ef3e9cbadfada82a7d231fb (origin/main, origin/HEAD)
+Author: Sahib-Aujla <sahibpreet568@gmail.com>
+Date:   Fri Aug 12 15:13:32 2022 -0400
+
+    Updation of fundamentals.c completed (v2)
+
+commit 8ef9a159de803d08349162d3da1d84393ebd8a22
+Author: Tozarf <fazatojuni@gmail.com>
+Date:   Thu Aug 11 18:49:21 2022 -0400
+
+    Update conversions v2
+
+commit 4ee568fb0cca85196dbd6a203ae583c2ff596be4
+Author: YuhanPizza <107896556+YuhanPizza@users.noreply.github.com>
+Date:   Thu Aug 11 18:44:45 2022 -0400
+
+    TokenizingChangesV2
+
+commit 5aec4ee86149dd3cb785fb22cd7956dfc7837ef0
+Author: YuhanPizza <107896556+YuhanPizza@users.noreply.github.com>
+Date:   Thu Aug 11 18:36:38 2022 -0400
+
+    TokenizingV2
+
+commit 154bc647007e3a2f1d0e3bff4f9df42002fe13d3
+Author: YuhanPizza <107896556+YuhanPizza@users.noreply.github.com>
+Date:   Thu Aug 11 18:22:47 2022 -0400
+
+    CPR
+(END)
+commit 25a5d8f6ae99e7ed9ef3e9cbadfada82a7d231fb (origin/main, origin/HEAD)
+Author: Sahib-Aujla <sahibpreet568@gmail.com>
+Date:   Fri Aug 12 15:13:32 2022 -0400
+
+    Updation of fundamentals.c completed (v2)
+
+commit 8ef9a159de803d08349162d3da1d84393ebd8a22
+Author: Tozarf <fazatojuni@gmail.com>
+Date:   Thu Aug 11 18:49:21 2022 -0400
+
+    Update conversions v2
+
+commit 4ee568fb0cca85196dbd6a203ae583c2ff596be4
+Author: YuhanPizza <107896556+YuhanPizza@users.noreply.github.com>
+Date:   Thu Aug 11 18:44:45 2022 -0400
+
+    TokenizingChangesV2
+
+commit 5aec4ee86149dd3cb785fb22cd7956dfc7837ef0
+Author: YuhanPizza <107896556+YuhanPizza@users.noreply.github.com>
+Date:   Thu Aug 11 18:36:38 2022 -0400
+
+    TokenizingV2
+
+commit 154bc647007e3a2f1d0e3bff4f9df42002fe13d3
+Author: YuhanPizza <107896556+YuhanPizza@users.noreply.github.com>
+Date:   Thu Aug 11 18:22:47 2022 -0400
+
+    CPR
+(END)
+commit 25a5d8f6ae99e7ed9ef3e9cbadfada82a7d231fb (origin/main, origin/HEAD)
+Author: Sahib-Aujla <sahibpreet568@gmail.com>
+Date:   Fri Aug 12 15:13:32 2022 -0400
+
+    Updation of fundamentals.c completed (v2)
+
+commit 8ef9a159de803d08349162d3da1d84393ebd8a22
+Author: Tozarf <fazatojuni@gmail.com>
+Date:   Thu Aug 11 18:49:21 2022 -0400
+
+    Update conversions v2
+
+commit 4ee568fb0cca85196dbd6a203ae583c2ff596be4
+Author: YuhanPizza <107896556+YuhanPizza@users.noreply.github.com>
+Date:   Thu Aug 11 18:44:45 2022 -0400
+
+    TokenizingChangesV2
+
+commit 5aec4ee86149dd3cb785fb22cd7956dfc7837ef0
+Author: YuhanPizza <107896556+YuhanPizza@users.noreply.github.com>
+Date:   Thu Aug 11 18:36:38 2022 -0400
+
+    TokenizingV2
+
+commit 154bc647007e3a2f1d0e3bff4f9df42002fe13d3
+Author: YuhanPizza <107896556+YuhanPizza@users.noreply.github.com>
+Date:   Thu Aug 11 18:22:47 2022 -0400
+
+    CPR
+(END)
+commit 25a5d8f6ae99e7ed9ef3e9cbadfada82a7d231fb (origin/main, origin/HEAD)
+Author: Sahib-Aujla <sahibpreet568@gmail.com>
+Date:   Fri Aug 12 15:13:32 2022 -0400
+
+    Updation of fundamentals.c completed (v2)
+
+commit 8ef9a159de803d08349162d3da1d84393ebd8a22
+Author: Tozarf <fazatojuni@gmail.com>
+Date:   Thu Aug 11 18:49:21 2022 -0400
+
+    Update conversions v2
+
+commit 4ee568fb0cca85196dbd6a203ae583c2ff596be4
+Author: YuhanPizza <107896556+YuhanPizza@users.noreply.github.com>
+Date:   Thu Aug 11 18:44:45 2022 -0400
+
+    TokenizingChangesV2
+
+commit 5aec4ee86149dd3cb785fb22cd7956dfc7837ef0
+Author: YuhanPizza <107896556+YuhanPizza@users.noreply.github.com>
+Date:   Thu Aug 11 18:36:38 2022 -0400
+
+    TokenizingV2
+
+commit 154bc647007e3a2f1d0e3bff4f9df42002fe13d3
+Author: YuhanPizza <107896556+YuhanPizza@users.noreply.github.com>
+Date:   Thu Aug 11 18:22:47 2022 -0400
+
+    CPR
+(END)
+commit 25a5d8f6ae99e7ed9ef3e9cbadfada82a7d231fb (origin/main, origin/HEAD)
+Author: Sahib-Aujla <sahibpreet568@gmail.com>
+Date:   Fri Aug 12 15:13:32 2022 -0400
+
+    Updation of fundamentals.c completed (v2)
+
+commit 8ef9a159de803d08349162d3da1d84393ebd8a22
+Author: Tozarf <fazatojuni@gmail.com>
+Date:   Thu Aug 11 18:49:21 2022 -0400
+
+    Update conversions v2
+
+commit 4ee568fb0cca85196dbd6a203ae583c2ff596be4
+Author: YuhanPizza <107896556+YuhanPizza@users.noreply.github.com>
+Date:   Thu Aug 11 18:44:45 2022 -0400
+
+    TokenizingChangesV2
+
+commit 5aec4ee86149dd3cb785fb22cd7956dfc7837ef0
+Author: YuhanPizza <107896556+YuhanPizza@users.noreply.github.com>
+Date:   Thu Aug 11 18:36:38 2022 -0400
+
+    TokenizingV2
+
+commit 154bc647007e3a2f1d0e3bff4f9df42002fe13d3
+Author: YuhanPizza <107896556+YuhanPizza@users.noreply.github.com>
+Date:   Thu Aug 11 18:22:47 2022 -0400
+
+    CPR
+(END)
+commit 25a5d8f6ae99e7ed9ef3e9cbadfada82a7d231fb (origin/main, origin/HEAD)
+Author: Sahib-Aujla <sahibpreet568@gmail.com>
+Date:   Fri Aug 12 15:13:32 2022 -0400
+
+    Updation of fundamentals.c completed (v2)
+
+commit 8ef9a159de803d08349162d3da1d84393ebd8a22
+Author: Tozarf <fazatojuni@gmail.com>
+Date:   Thu Aug 11 18:49:21 2022 -0400
+
+    Update conversions v2
+
+commit 4ee568fb0cca85196dbd6a203ae583c2ff596be4
+Author: YuhanPizza <107896556+YuhanPizza@users.noreply.github.com>
+Date:   Thu Aug 11 18:44:45 2022 -0400
+
+    TokenizingChangesV2
+
+commit 5aec4ee86149dd3cb785fb22cd7956dfc7837ef0
+Author: YuhanPizza <107896556+YuhanPizza@users.noreply.github.com>
+Date:   Thu Aug 11 18:36:38 2022 -0400
+
+    TokenizingV2
+
+commit 154bc647007e3a2f1d0e3bff4f9df42002fe13d3
+Author: YuhanPizza <107896556+YuhanPizza@users.noreply.github.com>
+Date:   Thu Aug 11 18:22:47 2022 -0400
+
+    CPR
+(END)
+
+
