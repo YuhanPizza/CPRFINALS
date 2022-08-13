@@ -1,8 +1,18 @@
+/*
+Origin: Yadveer Kaur, yadveer-kaur@myseneca.ca, 164592214, CPR, Final Assignment
+manipulating.c : Manipulating
+Purpose: Comparing two strings using string library functions
+*/
+
 #define _CRT_SECURE_NO_WARNINGS
 #define BUFFER_SIZE 80
 #include "manipulating.h"
 
-/* Purpose: To compare two different strings */
+/* 
+Purpose: To compare two different strings
+Parameters: None
+Modifier: Nothing is modified 
+*/
 void manipulating(void) {
 	printf("*** Start of Comparing Strings Demo ***\n");
 	char compare1[BUFFER_SIZE];
