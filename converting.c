@@ -1,5 +1,5 @@
 /*
-Origin: Fausto Zarumar, fjzaruma@myseneca.ca, 119758217,08/12/2022, CPR, Final Assignment
+Origin: Fausto Zaruma, fjzaruma@myseneca.ca, 119758217,08/12/2022, CPR, Final Assignment
 converting.c : Converting
 Purpose: Converting from numeric string to integer value.
 */
@@ -17,18 +17,18 @@ Modifies:  Nothing is modified since the converted value is stored in a a new ch
 void converting(void)
 {
 	printf("*** Start of Converting Strings to int Demo ***\n");
-	char doubleString[BUFFER_SIZE];
-	int doubleNumber;
+	char longString[BUFFER_SIZE];
+	long longNumber;
 	do
 	{
 		printf("Type an int numeric string (q - to quit):\n");
-		fgets(doubleString, BUFFER_SIZE, stdin);
-		doubleString[strlen(doubleString) - 1] = '\0';
-		if (strcmp(doubleString, "q") != 0)
+		fgets(longString, BUFFER_SIZE, stdin);
+		longString[strlen(longString) - 1] = '\0';
+		if (strcmp(longString, "q") != 0)
 		{
-			doubleNumber = atoi(doubleString); // conversion from alphabetical string to integer value.
-			printf("Converted number is %d\n", doubleNumber);
+			longNumber = atoi(longString); // conversion from alphabetical string to integer value.
+			printf("Converted number is %ld\n", longNumber);
 		}
-	} while (strcmp(doubleString, "q") != 0); // keep looping until the input is "q".
-	printf("*** End of Converting Strings to int Demo ***\n\n");
+	} while (strcmp(longString, "q") != 0); // keep looping until the input is "q".
+	printf("*** End of Converting Strings to long Demo ***\n\n");
 }
