@@ -16,15 +16,26 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 git log
 
-commit d116337878a08fc5176b21454fba8790923217ea (HEAD -> main)
+commit c2eb80046a22f9f06b2bf864937d0af7e6cd43b0 (HEAD -> main)
 Author: Tozarf <fazatojuni@gmail.com>
-Date:   Sat Aug 13 00:25:28 2022 -0400
+Date:   Thu Aug 18 12:36:24 2022 -0400
 
-    FINAL V2
+    V3
 
-commit 297b9bf33d7fba92392b97714eae7afc976960a7 (origin/main, origin/HEAD)
-Merge: 6a7e2cf ec0b344
+commit 7b24cdd68c03a5422e1ac3dbf8fa3ec1d4045040 (origin/main, origin/HEAD)
+Author: Sahib-Aujla <sahibpreet568@gmail.com>
+Date:   Thu Aug 18 08:51:00 2022 -0400
+
+    V3
+
+commit d6b4f3a32fede52704cc770df3041154752cbc0f
 Author: YadveerKaur <yadveerkaur5@gmail.com>
-Date:   Fri Aug 12 22:37:00 2022 -0500
+Date:   Wed Aug 17 21:11:26 2022 -0500
 
-    Merge branch 'main' of https://github.com/YuhanPizza/CPRFINALS
+    version3
+
+commit 861497d0876425c3dbf47f6c8fd0289399dcdb9b
+Author: Tozarf <fazatojuni@gmail.com>
+Date:   Wed Aug 17 17:44:51 2022 -0400
+
+    V3
