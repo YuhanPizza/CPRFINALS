@@ -1,7 +1,7 @@
 /*
 Origin: Yadveer Kaur, yadveer-kaur@myseneca.ca, 164592214, CPR, Final Assignment
 manipulating.c : Manipulating
-Purpose: Comparing two strings using string library functions
+Purpose: Searching a string
 */
 
 #define _CRT_SECURE_NO_WARNINGS
@@ -10,34 +10,33 @@ Purpose: Comparing two strings using string library functions
 #include "manipulating.h"
 
 /*
-Purpose: To compare two different strings
+Purpose: To Search a string
 Parameters: None
 Modifier: Nothing is modified
 */
 void manipulating(void)
 {
-	printf("*** Start of Comparing Strings Demo ***\n");
-	char compare1[BUFFER_SIZE];
-	char compare2[BUFFER_SIZE];
-	int result;
-	while (TRUE)
+	printf("*** Start of Searching Strings Demo ***\n");
+	char haystack[BUFFER_SIZE];
+	char needle[BUFFER_SIZE];
+	char* occurrence = NULL;
+	do
 	{ // continue loop till the condition is true
-		printf("Type the 1st string to compare (q - to quit):\n");
-		gets(compare1);
+		printf("Type the string (q - to quit):\n");
+		fgets(haystack, BUFFER_SIZE, stdin);
+		haystack[strlen(haystack) - 1] = '\0';
+		if (strcmp(haystack, "q") != 0)
+		{
+			printf("Type the substring:\n");
+			fgets(needle, BUFFER_SIZE, stdin);
+			needle[strlen(needle) - 1] = '\0';
+			occurrence = strstr(haystack, needle);
+			if (occurrence)
+				printf("\'%s\' found at %d position\n", needle, (int)(occurrence - haystack));
+			else
+				printf("Not found\n");
+		}
+	} while (strcmp(haystack, "q") != 0);
 
-		if (strcmp(compare1, "q") == 0)
-			break; // strcmp compares the strings and  if statement checks if the condition provided is true, then break the code here.
-		printf("Type the 2nd string to compare:\n");
-		gets(compare2);
-
-		result = strcmp(compare1, compare2);
-		if (result < 0)
-			printf("1st string is less than 2nd\n");
-		else if (result == 0)
-			printf("1st string is equal to 2nd\n");
-		else
-			printf("1st string is greater than 2nd\n");
-	}
-
-	printf("*** End of Comparing Strings Demo ***\n\n");
+	printf("*** End of Seaching Strings Demo ***\n\n");
 }
