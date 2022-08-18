@@ -1,19 +1,30 @@
- git status
-On branch main
 Your branch is up to date with 'origin/main'.
 
 Changes not staged for commit:
-  (use "git add/rm <file>..." to update what will be committed)
+  (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
-        modified:   converting.c
+        modified:   git_status_log2_screenshot.txt
+        modified:   git_status_log3_screenshot.txt
+        modified:   git_status_log4_screenshot.txt
+        modified:   main
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-        converting
-        git_status_log1_screenshot.txt
-        git_status_log2_screenshot.txt
-        git_status_log3_screenshot.txt
-        git_status_log4_screenshot.txt
-        main
-        test_screenshot.txt
+        .gitignore
 
+no changes added to commit (use "git add" and/or "git commit -a")
+
+git log
+
+commit d116337878a08fc5176b21454fba8790923217ea (HEAD -> main)
+Author: Tozarf <fazatojuni@gmail.com>
+Date:   Sat Aug 13 00:25:28 2022 -0400
+
+    FINAL V2
+
+commit 297b9bf33d7fba92392b97714eae7afc976960a7 (origin/main, origin/HEAD)
+Merge: 6a7e2cf ec0b344
+Author: YadveerKaur <yadveerkaur5@gmail.com>
+Date:   Fri Aug 12 22:37:00 2022 -0500
+
+    Merge branch 'main' of https://github.com/YuhanPizza/CPRFINALS
