@@ -54,4 +54,18 @@ void fundamentals(void)
 		printf("The length is %lu\n", strlen(buffer2));
 	}
 	printf("*** End of Measuring Strings Demo ***\n\n");
+
+	printf("*** Start of Copying Strings Demo ***\n");
+	char destination[80];
+	char source[80];
+	while (TRUE) {
+		destination[0] = '\0';
+		printf("Destination string is reset to empty\n");
+		printf("Type a source string (q - to quit):\n");
+		get(source);
+		if (strcmp(source, "q") == 0) break;
+		strcpy(destination, source);
+		printf("New destination string is \'%s\':\n",destination);
+	}
+	printf("*** End od Copying Strings Demo ***\n\n");
 }
